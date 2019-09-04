@@ -12,7 +12,7 @@ body, html{
 }
 
 header{
-    background-image: url(https://cdn.discordapp.com/attachments/583945191241809934/618526159520399401/spyblubg.jpg);
+    background-image: url(../spyblubg.jpg);
     height:100vh;
     background-size: cover;
     background-position: center;
@@ -46,7 +46,26 @@ ul li a:hover{
     width: 100px;
     height: auto;     
 }
+.button {
+    position: absolute;
+    top: 62%;
+    left: 53%;
+    transform: translate(-10%, +1000%);
+}
+.mainbtn{
+    font-family: monospace;
+    font-size: 17px;
+    color: darkorange;
+    border: 2px solid #fff;
+    padding: 20px 10px;
+    text-decoration: none;
+    transition: 0.4s ease
+}
 
+.btn:hover{
+    background-color: #4882cf;
+    color: #fff;
+}
 h2{
     width: auto;
     height: auto;
@@ -93,12 +112,12 @@ p{
     transform: translate(+4100%, -100%);
     width: 10px;
 }
-.demoman{
-    transform: translate(+4000%, -42%);
-    width: 10px;
+
+.embed{
+    border: 4px solid #000;
+    transform: translate(276%, -94%);
 }
-.finalone{
-    width: 100px;
-    height: auto;
-    transform: translate(+400%, -249%)
+.prezen{
+    transform: translate(88%, -90%);
+    border: 4px solid #000;
 }
